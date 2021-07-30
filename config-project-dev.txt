@@ -1,0 +1,45 @@
+1. yarn create next-app "nome-da-pasta-sem-aspas"
+2. Arrasta pasta pages para dentro de uma src
+3. Instale o yarn
+4. instale o typescript como developer: yarn add typescript @types/react @types/node -D
+5. Intale o firebase: yarn add firebase
+6. Instale o date fns: yarn add date-fns
+
+
+
+Exntesões
+1. sass
+2. CSS modules (Autor: clinyoung)
+
+
+Pacotes e afins
+
+1. Icones: yarn add react-icons
+2. Next Auth: Autenticação de usuários, link: https://next-auth.js.org/getting-started/example
+	Para o pacote next-auth funcionar, você precisa instalar o pacote: yarn add next-auth, e depois rodar: yarn add @types/next-auth -D
+3. Instale o style-components: yarn add styled-components. Depois instale: https://styled-components.com/docs/tooling. Depois crie um arquivo .babelrc e coloque a configuração do link citado<. Rode o npm install novamente e depois o yarn dev.
+
+app - production
+1. vai na pasta raiz do projeto e rode: yarn build
+
+
+
+
+Paypal
+
+https://github.com/paypal/react-paypal-js
+
+paypal - Dedeveloper
+1. Crie ou logue na conta
+2. Acesse o link: https://developer.paypal.com/developer/accounts/
+3. Clique em "Create account", em Account Type selecione "Business", selecione brazil na opção do pais e as opções padrões.
+4. Acesse o link: "https://developer.paypal.com/developer/applications/"
+5. Clique em Create App, no "App type" selecione "Merchant", salve o Client id para depois.
+6. Acesse o link: https://developer.paypal.com/docs/checkout/reference/customize-sdk De uma estudada, depois esse link será util para a implementação
+7. Instale a biblioteca do paypal: yarn add @paypal/react-paypal-js
+8. Para realizar testes com a biblioteca, acesse o accounts no sandbox, o link está no tópico 2↑ e depois crie uma conta do tipo pessoa
+
+paypal - Production
+1. Você precisa ter uma conta como empresa, não como pessoa.
+2. Acesse o link: https://developer.paypal.com/developer/applications/ e depois no box "My apps & credentials", clique em live, depois em Create App. Escolha um nome e depois crie o projeto
+3. Copie e cole o client id em seu projeto
